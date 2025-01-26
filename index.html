@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loginForm">
+        <form >
+            <div class="inputBox">
+                <label for="userName" >Username</label> 
+                <input type="text" id="username" placeholder="Enter your Username" required>
+            </div>
+            <div class="inputBox">
+                <label for="password" >Password</label>
+                <input type="password" id="password" placeholder="Ente your Password" required>
+            </div>
+            <div class="educationFields">
+                <label> Select Your Faculty</label>
+                <div class="checkBox">
+                    <label for="CSIT">Bsc.CSIT</label>
+                    <input type="radio" name="faculty">
+                </div>
+                <div class="checkBox">
+                    <label for="bit">BIT</label>
+                    <input type="radio" name="faculty">
+                </div>
+                <div class="checkBox">
+                    <label for="bca">BCA</label>
+                    <input type="radio" name="faculty">
+                </div>
+            </div>
+            <button class="btn" type="submit">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
